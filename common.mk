@@ -474,6 +474,7 @@ TARGET_EXCLUDE_QCOM_SEPOLICY := true
 TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     alarm \
+    av \
     wfd \
 
 $(call inherit-product, device/qcom/common/common.mk)
